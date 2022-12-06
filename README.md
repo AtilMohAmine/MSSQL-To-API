@@ -35,4 +35,17 @@ var config = {
 $ npm start
 ```
 
-## 
+
+## Demo
+
+This [Postman file](https://raw.githubusercontent.com/AtilMohAmine/MSSQL-To-API/main/Postman-Demo.json) contains a demo that using all CRUD operations for this SQL table:
+
+``` sql
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+```
